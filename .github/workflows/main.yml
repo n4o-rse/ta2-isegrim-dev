@@ -25,7 +25,7 @@ jobs:
       prefixnsshort: no
       indexpages: true
       createcollections: true
-      createVOWL: true
+      createVOWL: false
       preferredlang: en
       ghpages: true
       metadatatable: true
