@@ -1,0 +1,70 @@
+# create triples from https://github.com/nfdi4objects/isegrim 
+# on 2023-12-06 15:24
+
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix geosparql: <http://www.opengis.net/ont/geosparql#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix sf: <http://www.opengis.net/ont/sf#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix pleiades: <https://pleiades.stoa.org/places/vocab#> .
+@prefix wikidata: <http://wikidata.org/entity/> .
+@prefix lado: <http://archaeology.link/ontology#> .
+@prefix isegrim: <http://data.archaeology.link/data/isegrim/> .
+@prefix skosplus: <http://ontology.skosplus.net/> .
+@prefix fsl: <http://archaeoinformatics.link/ontology#> .
+@prefix fsld: <http://fuzzy-sl.squirrel.link/data/> .
+
+isegrim:material_1 rdf:type skos:Concept .
+isegrim:material_1 rdf:type prov:Entity .
+isegrim:material_1 skos:prefLabel 'Aurum'@en.
+isegrim:material_1 skos:closeMatch <http://nomisma.org/id/av>.
+isegrim:material_1 skos:closeMatch <http://wikidata.org/entity/Q897>.
+isegrim:material_1 skos:closeMatch <http://vocab.getty.edu/aat/300011021>.
+
+isegrim:material_2 rdf:type skos:Concept .
+isegrim:material_2 rdf:type prov:Entity .
+isegrim:material_2 skos:prefLabel 'AV fake'@en.
+isegrim:material_2 skosplus:type 'fake'@en.
+
+isegrim:material_3 rdf:type skos:Concept .
+isegrim:material_3 rdf:type prov:Entity .
+isegrim:material_3 skos:prefLabel 'AV fourrée'@en.
+isegrim:material_3 skosplus:type 'fourée'@en.
+
+isegrim:material_4 rdf:type skos:Concept .
+isegrim:material_4 rdf:type prov:Entity .
+isegrim:material_4 skos:prefLabel 'Elektron'@en.
+isegrim:material_4 skos:closeMatch <http://nomisma.org/id/el>.
+isegrim:material_4 skos:closeMatch <http://wikidata.org/entity/Q239481>.
+isegrim:material_4 skos:closeMatch <http://vocab.getty.edu/aat/300010965>.
+
+isegrim:material_5 rdf:type skos:Concept .
+isegrim:material_5 rdf:type prov:Entity .
+isegrim:material_5 skos:prefLabel 'EL fourrée'@en.
+isegrim:material_5 skosplus:type 'fourée'@en.
+
+isegrim:material_6 rdf:type skos:Concept .
+isegrim:material_6 rdf:type prov:Entity .
+isegrim:material_6 skos:prefLabel 'EL IMITATION'@en.
+isegrim:material_6 skosplus:type 'imitation'@en.
+
+isegrim:material_7 rdf:type skos:Concept .
+isegrim:material_7 rdf:type prov:Entity .
+isegrim:material_7 skos:prefLabel 'aes'@en.
+isegrim:material_7 skos:closeMatch <http://nomisma.org/id/ae>.
+isegrim:material_7 skos:closeMatch <http://wikidata.org/entity/Q34095>.
+isegrim:material_7 skos:closeMatch <http://vocab.getty.edu/aat/300010957>.
+
+isegrim:material_8 rdf:type skos:Concept .
+isegrim:material_8 rdf:type prov:Entity .
+isegrim:material_8 skos:prefLabel 'argentum'@en.
+isegrim:material_8 skos:closeMatch <http://nomisma.org/id/ar>.
+isegrim:material_8 skos:closeMatch <http://wikidata.org/entity/Q1090>.
+isegrim:material_8 skos:closeMatch <http://vocab.getty.edu/aat/300011029>.
+
