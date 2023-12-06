@@ -1,8 +1,6 @@
-@prefix prov: <http://www.w3.org/ns/prov#> .
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
 
-<http://data.archaeology.link/data/isegrim/city_8> a skos:Concept,
-        prov:Entity ;
+<http://data.archaeology.link/data/isegrim/city_8> a skos:Concept ;
     skos:closeMatch <http://nomisma.org/id/ephesus>,
         <http://pleiades.stoa.org/places/599612>,
         <http://vocab.getty.edu/tgn/7002499>,

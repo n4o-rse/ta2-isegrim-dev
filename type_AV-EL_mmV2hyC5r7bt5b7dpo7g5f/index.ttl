@@ -1,9 +1,7 @@
 @prefix ns1: <http://ontology.skosplus.net/> .
-@prefix prov: <http://www.w3.org/ns/prov#> .
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
 
-<http://data.archaeology.link/data/isegrim/type_AV-EL_mmV2hyC5r7bt5b7dpo7g5f> a skos:Concept,
-        prov:Entity ;
+<http://data.archaeology.link/data/isegrim/type_AV-EL_mmV2hyC5r7bt5b7dpo7g5f> a skos:Concept ;
     ns1:city "CLAZOMENAE"@en ;
     ns1:materialMatch <http://data.archaeology.link/data/isegrim/material_1> ;
     ns1:metal "AV"@en ;
