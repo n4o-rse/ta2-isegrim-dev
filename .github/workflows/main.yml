@@ -24,7 +24,7 @@ jobs:
       prefixns: http://data.archaeology.link/data/isegrim/
       prefixnsshort: no
       indexpages: true
-      createcollections: true
+      createcollections: false
       createVOWL: false
       preferredlang: en
       ghpages: true

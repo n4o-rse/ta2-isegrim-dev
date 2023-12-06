@@ -1,5 +1,5 @@
 # create triples from https://github.com/nfdi4objects/isegrim 
-# on 2023-12-06 13:55
+# on 2023-12-06 16:12
 
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
@@ -16,39 +16,32 @@
 @prefix wikidata: <http://wikidata.org/entity/> .
 @prefix lado: <http://archaeology.link/ontology#> .
 @prefix isegrim: <http://data.archaeology.link/data/isegrim/> .
+@prefix skosplus: <http://ontology.skosplus.net/> .
 @prefix fsl: <http://archaeoinformatics.link/ontology#> .
 @prefix fsld: <http://fuzzy-sl.squirrel.link/data/> .
 
 isegrim:city_1 rdf:type skos:Concept .
-isegrim:city_1 rdf:type prov:Entity .
 isegrim:city_1 skos:prefLabel 'ABYDUS'@en.
 
 isegrim:city_2 rdf:type skos:Concept .
-isegrim:city_2 rdf:type prov:Entity .
 isegrim:city_2 skos:prefLabel 'AMISUS'@en.
 
 isegrim:city_3 rdf:type skos:Concept .
-isegrim:city_3 rdf:type prov:Entity .
 isegrim:city_3 skos:prefLabel 'CALCHEDON'@en.
 
 isegrim:city_4 rdf:type skos:Concept .
-isegrim:city_4 rdf:type prov:Entity .
 isegrim:city_4 skos:prefLabel 'CHIOS'@en.
 
 isegrim:city_5 rdf:type skos:Concept .
-isegrim:city_5 rdf:type prov:Entity .
 isegrim:city_5 skos:prefLabel 'CIUS'@en.
 
 isegrim:city_6 rdf:type skos:Concept .
-isegrim:city_6 rdf:type prov:Entity .
 isegrim:city_6 skos:prefLabel 'CLAZOMENAE'@en.
 
 isegrim:city_7 rdf:type skos:Concept .
-isegrim:city_7 rdf:type prov:Entity .
 isegrim:city_7 skos:prefLabel 'DARDANUS'@en.
 
 isegrim:city_8 rdf:type skos:Concept .
-isegrim:city_8 rdf:type prov:Entity .
 isegrim:city_8 skos:prefLabel 'Ephesus'@en.
 isegrim:city_8 skos:closeMatch <http://nomisma.org/id/ephesus>.
 isegrim:city_8 skos:closeMatch <http://wikidata.org/entity/Q47611>.
@@ -56,55 +49,42 @@ isegrim:city_8 skos:closeMatch <http://pleiades.stoa.org/places/599612>.
 isegrim:city_8 skos:closeMatch <http://vocab.getty.edu/tgn/7002499>.
 
 isegrim:city_9 rdf:type skos:Concept .
-isegrim:city_9 rdf:type prov:Entity .
 isegrim:city_9 skos:prefLabel 'ERYTHRAE'@en.
 
 isegrim:city_10 rdf:type skos:Concept .
-isegrim:city_10 rdf:type prov:Entity .
 isegrim:city_10 skos:prefLabel 'HALICARNASSUS'@en.
 
 isegrim:city_11 rdf:type skos:Concept .
-isegrim:city_11 rdf:type prov:Entity .
 isegrim:city_11 skos:prefLabel 'IALYSOS'@en.
 
 isegrim:city_12 rdf:type skos:Concept .
-isegrim:city_12 rdf:type prov:Entity .
 isegrim:city_12 skos:prefLabel 'KYZIKOS'@en.
 
 isegrim:city_13 rdf:type skos:Concept .
-isegrim:city_13 rdf:type prov:Entity .
 isegrim:city_13 skos:prefLabel 'LAMPSACUS'@en.
 
 isegrim:city_14 rdf:type skos:Concept .
-isegrim:city_14 rdf:type prov:Entity .
 isegrim:city_14 skos:prefLabel 'MILETUS'@en.
 
 isegrim:city_15 rdf:type skos:Concept .
-isegrim:city_15 rdf:type prov:Entity .
 isegrim:city_15 skos:prefLabel 'MYTILENE'@en.
 
 isegrim:city_16 rdf:type skos:Concept .
-isegrim:city_16 rdf:type prov:Entity .
 isegrim:city_16 skos:prefLabel 'PERGAMUM'@en.
 
 isegrim:city_17 rdf:type skos:Concept .
-isegrim:city_17 rdf:type prov:Entity .
 isegrim:city_17 skos:prefLabel 'PHOCAEA'@en.
 
 isegrim:city_18 rdf:type skos:Concept .
-isegrim:city_18 rdf:type prov:Entity .
 isegrim:city_18 skos:prefLabel 'PHYGELA'@en.
 
 isegrim:city_19 rdf:type skos:Concept .
-isegrim:city_19 rdf:type prov:Entity .
 isegrim:city_19 skos:prefLabel 'RHODES'@en.
 
 isegrim:city_20 rdf:type skos:Concept .
-isegrim:city_20 rdf:type prov:Entity .
 isegrim:city_20 skos:prefLabel 'SAMOS'@en.
 
 isegrim:city_21 rdf:type skos:Concept .
-isegrim:city_21 rdf:type prov:Entity .
 isegrim:city_21 skos:prefLabel 'Sardes'@en.
 isegrim:city_21 skos:closeMatch <http://nomisma.org/id/sardes>.
 isegrim:city_21 skos:closeMatch <http://wikidata.org/entity/Q232615>.
@@ -112,10 +92,8 @@ isegrim:city_21 skos:closeMatch <http://pleiades.stoa.org/places/550867>.
 isegrim:city_21 skos:closeMatch <http://vocab.getty.edu/tgn/7002615>.
 
 isegrim:city_22 rdf:type skos:Concept .
-isegrim:city_22 rdf:type prov:Entity .
 isegrim:city_22 skos:prefLabel 'SIDE'@en.
 
 isegrim:city_23 rdf:type skos:Concept .
-isegrim:city_23 rdf:type prov:Entity .
 isegrim:city_23 skos:prefLabel 'TEOS'@en.
 

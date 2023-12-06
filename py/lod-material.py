@@ -64,8 +64,8 @@ for index, row in data.iterrows():
     # typing
     lines.append("isegrim:material_" +
                  str(row['id']) + " " + "rdf:type" + " skos:Concept .")
-    lines.append("isegrim:material_" +
-                 str(row['id']) + " " + "rdf:type" + " prov:Entity .")
+    # lines.append("isegrim:material_" +
+    #             str(row['id']) + " " + "rdf:type" + " prov:Entity .")
 
     # metadata
     lines.append("isegrim:material_" +
