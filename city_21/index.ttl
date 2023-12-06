@@ -1,0 +1,11 @@
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://data.archaeology.link/data/isegrim/city_21> a skos:Concept,
+        prov:Entity ;
+    skos:closeMatch <http://nomisma.org/id/sardes>,
+        <http://pleiades.stoa.org/places/550867>,
+        <http://vocab.getty.edu/tgn/7002615>,
+        <http://wikidata.org/entity/Q232615> ;
+    skos:prefLabel "Sardes"@en .
+

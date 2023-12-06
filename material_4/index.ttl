@@ -1,0 +1,10 @@
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://data.archaeology.link/data/isegrim/material_4> a skos:Concept,
+        prov:Entity ;
+    skos:closeMatch <http://nomisma.org/id/el>,
+        <http://vocab.getty.edu/aat/300010965>,
+        <http://wikidata.org/entity/Q239481> ;
+    skos:prefLabel "Elektron"@en .
+

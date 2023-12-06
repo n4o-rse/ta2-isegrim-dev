@@ -1,0 +1,11 @@
+@prefix ns1: <http://ontology.skosplus.net/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://data.archaeology.link/data/isegrim/type_AV-EL_NXj37mn2Gf39ge2o3o5MVt> a skos:Concept,
+        prov:Entity ;
+    ns1:city "SIDE"@en ;
+    ns1:materialMatch <http://data.archaeology.link/data/isegrim/material_1> ;
+    ns1:metal "AV"@en ;
+    skos:prefLabel "GCAM Aegae AV/EL, Type #NXj37mn2Gf39ge2o3o5MVt"@en .
+

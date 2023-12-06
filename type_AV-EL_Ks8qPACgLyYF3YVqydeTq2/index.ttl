@@ -1,0 +1,11 @@
+@prefix ns1: <http://ontology.skosplus.net/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://data.archaeology.link/data/isegrim/type_AV-EL_Ks8qPACgLyYF3YVqydeTq2> a skos:Concept,
+        prov:Entity ;
+    ns1:city "LAMPSACUS"@en ;
+    ns1:materialMatch <http://data.archaeology.link/data/isegrim/material_3> ;
+    ns1:metal "AV fourrée"@en ;
+    skos:prefLabel "GCAM Aegae AV/EL, Type #Ks8qPACgLyYF3YVqydeTq2"@en .
+
