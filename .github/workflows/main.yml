@@ -19,7 +19,7 @@ jobs:
     uses: sparqlunicorn/sparqlunicornGoesGIS-ontdoc/.github/workflows/udoc.yml@main
     with:
       version: v016
-      rdffilepath: data/city.ttl data/material.ttl AV-EL.ttl
+      rdffilepath: data/city.ttl data/material.ttl data/AV-EL.ttl
       docpath: docs
       prefixns: http://data.archaeology.link/data/isegrim/
       prefixnsshort: no
